@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://bhpslyij2l-dsn.algolia.net/1/indexes/pages/query
+    body:
+      encoding: UTF-8
+      string: '{"params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=Looking+after+your+dependants+in+retirement"}'
+    headers:
+      User-Agent:
+      - Algolia for Ruby 1.19.1
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip,deflate
+      Date:
+      - Tue, 27 Mar 2018 10:59:34 GMT
+      X-Algolia-Api-Key:
+      - "<API_KEY>"
+      X-Algolia-Application-Id:
+      - "<APP_ID>"
+      Content-Type:
+      - application/json; charset=utf-8
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 27 Mar 2018 10:59:35 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      X-Content-Type-Options:
+      - nosniff
+      Content-Disposition:
+      - inline; filename=a.txt
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: |
+        {"hits":[{"title":"Looking after your dependants in retirement","description":"How to make sure that your partner and/or children will be provided for when you retire.","published_at":"2017-06-19T10:53:06.000Z","objectID":"/en/articles/looking-after-your-dependants-in-retirement","_highlightResult":{"title":{"value":"<br>Looking</br> <br>after</br> <br>your</br> <br>dependants</br> <br>in</br> <br>retirement</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["looking","after","your","dependants","in","retirement"]},"description":{"value":"How to make sure that <br>your</br> partner and/or children will be provided for when you retire.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["your"]},"published_at":{"value":"2017-06-19T10:53:06.000Z","matchLevel":"none","matchedWords":[]}}}],"nbHits":1,"page":0,"nbPages":1,"hitsPerPage":10,"processingTimeMS":3,"exhaustiveNbHits":true,"query":"Looking after your dependants in retirement","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=Looking+after+your+dependants+in+retirement"}
+    http_version: 
+  recorded_at: Tue, 27 Mar 2018 10:59:35 GMT
+recorded_with: VCR 4.0.0
