@@ -10,7 +10,10 @@ module SiteSearch
     end
 
     def to_s
-      "#<SiteSearch::Result @title=#{@title}, @link=#{@link}, @description=#{@description}>"
+      "#<SiteSearch::Result
+          @title=#{@title},
+          @link=#{@link},
+         @description=#{@description}>".gsub(/\n\s*/, ' ')
     end
   end
 end

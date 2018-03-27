@@ -1,6 +1,6 @@
 module SiteSearch
   class Config
-    attr_accessor :adapter, :logger
+    attr_writer :adapter, :logger
 
     def adapter
       adapter_name = @adapter || 'local'

@@ -33,10 +33,8 @@ RSpec.describe SiteSearch::Result do
   describe '#raw' do
     it 'returns raw from response' do
       expect(result.raw).to eq(
-        {
-          title: 'Budget planner',
-          description: 'You can use this planner'
-        }
+        title: 'Budget planner',
+        description: 'You can use this planner'
       )
     end
   end

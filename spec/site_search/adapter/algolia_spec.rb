@@ -70,6 +70,7 @@ RSpec.describe SiteSearch::Adapter::Algolia do
         'Looking after your dependants in retirement'
       end
 
+      # rubocop:disable Metrics/LineLength
       let(:results) do
         {
           results: [
@@ -90,6 +91,7 @@ RSpec.describe SiteSearch::Adapter::Algolia do
           query: query
         }
       end
+      # rubocop:enable Metrics/LineLength
 
       it 'returns the highlighted results' do
         VCR.use_cassette('retirement_page', match_requests_on: [:body]) do

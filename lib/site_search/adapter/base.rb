@@ -8,7 +8,7 @@ module SiteSearch
         @logger = SiteSearch.config.logger
       end
 
-      def search(query)
+      def search(_query)
         raise NotImplementedError
       end
     end
