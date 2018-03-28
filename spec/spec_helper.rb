@@ -1,6 +1,6 @@
 require 'bundler/setup'
+Bundler.require(:development)
 require 'site_search'
-require 'vcr'
 
 Dir['spec/shared_examples/*.rb'].each do |file|
   require(File.expand_path(file))
