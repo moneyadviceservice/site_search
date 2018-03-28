@@ -31,6 +31,7 @@ module SiteSearch
       def results_for(response)
         Array(response['hits']).map do |hit|
           highlight_result = hit['_highlightResult']
+          highlight_result.default = {}
 
           {
             title: highlight_result['title']['value'],

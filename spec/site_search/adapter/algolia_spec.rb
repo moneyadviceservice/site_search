@@ -99,5 +99,30 @@ RSpec.describe SiteSearch::Adapter::Algolia do
         end
       end
     end
+
+    context 'when searching a page without highlight results' do
+      let(:query) do
+        'mortgages'
+      end
+
+      let(:result_without_description) do
+        {
+          title: '<br>Mortgages</br>',
+          description: nil,
+          link: '/en/categories/mortgages',
+          raw: {
+            title: 'Mortgages',
+            description: nil
+          }
+        }
+      end
+
+      it 'returns the highlighted results' do
+        VCR.use_cassette('mortgages', match_requests_on: [:body]) do
+          expect(algolia.search(query)[:results])
+            .to include(result_without_description)
+        end
+      end
+    end
   end
 end

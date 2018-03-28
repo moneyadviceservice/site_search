@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://bhpslyij2l-dsn.algolia.net/1/indexes/pages/query
+    body:
+      encoding: UTF-8
+      string: '{"params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=mortgages"}'
+    headers:
+      User-Agent:
+      - Algolia for Ruby 1.19.1
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip,deflate
+      Date:
+      - Wed, 28 Mar 2018 10:44:39 GMT
+      X-Algolia-Api-Key:
+      - "<API_KEY>"
+      X-Algolia-Application-Id:
+      - "<APP_ID>"
+      Content-Type:
+      - application/json; charset=utf-8
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 28 Mar 2018 10:44:39 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      X-Content-Type-Options:
+      - nosniff
+      Content-Disposition:
+      - inline; filename=a.txt
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: |
+        {"hits":[{"title":"Mortgages","description":null,"links":[],"objectID":"/en/categories/mortgages","_highlightResult":{"title":{"value":"<br>Mortgages</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["mortgages"]}}},{"title":"Mortgages – a beginner’s guide","description":"Mortgages are a major financial responsibility. Make sure you understand what you are taking on before you commit to one","published_at":"2017-07-27T14:56:05.000Z","objectID":"/en/articles/mortgages-a-beginners-guide","_highlightResult":{"title":{"value":"<br>Mortgages</br> – a beginner’s guide","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"<br>Mortgages</br> are a major financial responsibility. Make sure you understand what you are taking on before you commit to one","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"published_at":{"value":"2017-07-27T14:56:05.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Homes and mortgages","description":"Everything you need to know about buying a home and choosing the right mortgage","links":[{"id":127,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"How much mortgage can you afford to borrow","url":"/en/tools/house-buying/mortgage-affordability-calculator","locale":"en"},{"id":129,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"Mortgage calculator – work out your monthly payments","url":"/en/tools/mortgage-calculator","locale":"en"},{"id":131,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"Stamp Duty calculator","url":"/en/tools/house-buying/stamp-duty-calculator","locale":"en"},{"id":133,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"First-time buyer guide","url":"/en/articles/first-time-buyer-money-tips","locale":"en"},{"id":135,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"Remortgaging guide","url":"/en/articles/remortgaging-to-cut-costs","locale":"en"}],"objectID":"/en/categories/homes-and-mortgages","_highlightResult":{"title":{"value":"Homes and <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Everything you need to know about buying a home and choosing the right mortgage","matchLevel":"none","matchedWords":[]},"links":[{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"How much mortgage can you afford to borrow","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/tools/house-buying/mortgage-affordability-calculator","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}},{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"Mortgage calculator – work out your monthly payments","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/tools/mortgage-calculator","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}},{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"Stamp Duty calculator","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/tools/house-buying/stamp-duty-calculator","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}},{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"First-time buyer guide","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/articles/first-time-buyer-money-tips","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}},{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"Remortgaging guide","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/articles/remortgaging-to-cut-costs","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}}]}},{"title":"Help with mortgages","description":"Get started with our beginner's guide to mortgages, getting the right deal, and tips if you're struggling to pay.","links":[],"objectID":"/en/categories/help-with-mortgages","_highlightResult":{"title":{"value":"Help with <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Get started with our beginner's guide to <br>mortgages</br>, getting the right deal, and tips if you're struggling to pay.","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]}}},{"title":"A guide to mortgages with special features","description":"Find out more about special features, such as cashback, offsetting or overpayments","published_at":"2017-07-26T14:39:24.000Z","objectID":"/en/articles/mortgage-special-features","_highlightResult":{"title":{"value":"A guide to <br>mortgages</br> with special features","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Find out more about special features, such as cashback, offsetting or overpayments","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-07-26T14:39:24.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Mis-sold endowment mortgages","description":"If you think you were mis-sold an endowment mortgage act quickly – time limits and process for claiming compensation","published_at":"2017-05-08T10:58:11.000Z","objectID":"/en/articles/mis-sold-endowment-mortgages","_highlightResult":{"title":{"value":"Mis-sold endowment <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"If you think you were mis-sold an endowment mortgage act quickly – time limits and process for claiming compensation","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-05-08T10:58:11.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Buy-to-let mortgages explained","description":"Considering a Buy to Let mortgage? Read our guide to learn how they work, eligibility, how to apply and common mistakes to avoid and how to apply.","published_at":"2017-06-28T14:13:53.000Z","objectID":"/en/articles/buy-to-let-mortgages","_highlightResult":{"title":{"value":"Buy-to-let <br>mortgages</br> explained","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Considering a Buy to Let mortgage? Read our guide to learn how they work, eligibility, how to apply and common mistakes to avoid and how to apply.","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-06-28T14:13:53.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Shared equity or partnership mortgages","description":"How shared equity or Partnership Mortgages work, the pros and cons and who they are suitable for","published_at":"2017-06-08T15:06:44.000Z","objectID":"/en/articles/shared-equity-or-partnership-mortgages","_highlightResult":{"title":{"value":"Shared equity or partnership <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"How shared equity or Partnership <br>Mortgages</br> work, the pros and cons and who they are suitable for","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"published_at":{"value":"2017-06-08T15:06:44.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Second charge or second mortgages","description":"A secured charge is a loan which uses the borrower's house as security and is often called Second Mortgage, however there are distinct differences.","published_at":"2017-06-19T12:51:27.000Z","objectID":"/en/articles/second-charge-or-second-mortgages","_highlightResult":{"title":{"value":"Second charge or second <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"A secured charge is a loan which uses the borrower's house as security and is often called Second Mortgage, however there are distinct differences.","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-06-19T12:51:27.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Understanding different types of mortgages","description":"A quick overview of the different types of mortgage interest rate including pros and cons","published_at":"2017-05-08T10:58:47.000Z","objectID":"/en/articles/mortgage-interest-rate-options","_highlightResult":{"title":{"value":"Understanding different types of <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"A quick overview of the different types of mortgage interest rate including pros and cons","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-05-08T10:58:47.000Z","matchLevel":"none","matchedWords":[]}}}],"nbHits":55,"page":0,"nbPages":6,"hitsPerPage":10,"processingTimeMS":1,"exhaustiveNbHits":true,"query":"mortgages","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=mortgages"}
+    http_version: 
+  recorded_at: Wed, 28 Mar 2018 10:44:40 GMT
+recorded_with: VCR 4.0.0
