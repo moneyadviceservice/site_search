@@ -33,9 +33,12 @@ module SiteSearch
           highlight_result = hit['_highlightResult']
           highlight_result.default = {}
 
+          description = highlight_result['description']['value'] ||
+                        hit['description']
+
           {
             title: highlight_result['title']['value'],
-            description: highlight_result['description']['value'],
+            description: description,
             link: hit['objectID'],
             raw: {
               title: hit['title'],

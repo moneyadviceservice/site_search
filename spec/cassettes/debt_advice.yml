@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://xgb5qlte67-dsn.algolia.net/1/indexes/pages/query
+    body:
+      encoding: UTF-8
+      string: '{"params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=where+free+advice"}'
+    headers:
+      User-Agent:
+      - Algolia for Ruby 1.19.1
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip,deflate
+      Date:
+      - Wed, 28 Mar 2018 17:02:17 GMT
+      X-Algolia-Api-Key:
+      - "<API_KEY>"
+      X-Algolia-Application-Id:
+      - "<APP_ID>"
+      Content-Type:
+      - application/json; charset=utf-8
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 28 Mar 2018 17:02:18 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      X-Content-Type-Options:
+      - nosniff
+      Content-Disposition:
+      - inline; filename=a.txt
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: |
+        {"hits":[{"title":"Where to go to get free debt advice","description":"Free debt advice and help locator tool. Use our tool to find a debt advice service near you that's accredited by the Money Advice Service.","content":"<p>Tool</p>\n","published_at":"2018-03-27T14:07:30.000Z","objectID":"/en/tools/debt-advice-locator","_highlightResult":{"title":{"value":"<br>Where</br> to go to get <br>free</br> debt <br>advice</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]}}}],"nbHits":1,"page":0,"nbPages":1,"hitsPerPage":10,"processingTimeMS":1,"exhaustiveNbHits":true,"query":"where free advice","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=where+free+advice"}
+    http_version: 
+  recorded_at: Wed, 28 Mar 2018 17:02:18 GMT
+recorded_with: VCR 4.0.0

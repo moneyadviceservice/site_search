@@ -119,6 +119,34 @@ RSpec.describe SiteSearch::Adapter::Algolia do
 
       it 'returns the highlighted results' do
         VCR.use_cassette('mortgages', match_requests_on: [:body]) do
+          expect(algolia.search(query)[:results].first)
+            .to eq(result_without_description)
+        end
+      end
+    end
+
+    context 'when searching page with description but not highlighted' do
+      let(:query) do
+        'where free advice'
+      end
+
+      # rubocop:disable Metrics/LineLength
+      let(:result_without_description) do
+        {
+          title:
+            '<br>Where</br> to go to get <br>free</br> debt <br>advice</br>',
+          description: "Free debt advice and help locator tool. Use our tool to find a debt advice service near you that's accredited by the Money Advice Service.",
+          link: '/en/tools/debt-advice-locator',
+          raw: {
+            title: 'Where to go to get free debt advice',
+            description: "Free debt advice and help locator tool. Use our tool to find a debt advice service near you that's accredited by the Money Advice Service."
+          }
+        }
+      end
+      # rubocop:enable Metrics/LineLength
+
+      it 'returns the highlighted results' do
+        VCR.use_cassette('debt_advice', match_requests_on: [:body]) do
           expect(algolia.search(query)[:results])
             .to include(result_without_description)
         end
