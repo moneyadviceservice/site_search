@@ -1,5 +1,5 @@
 RSpec.describe SiteSearch::Decorator do
-  subject { described_class.call(collection) }
+  subject { described_class.new(collection) }
 
   let(:collection) do
     instance_double(
@@ -9,12 +9,6 @@ RSpec.describe SiteSearch::Decorator do
     )
   end
   let(:page) { 0 }
-
-  describe '#call' do
-    it 'decorates the collection with helpers' do
-      expect(subject).to be_an(SiteSearch::Decorator)
-    end
-  end
 
   describe '#page' do
     it 'returns the page offset by 1' do

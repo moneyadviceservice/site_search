@@ -30,7 +30,7 @@ RSpec.describe SiteSearch::Query do
       expect(SiteSearch::Results).to receive(:new)
         .with(response)
         .and_return(results)
-      expect(SiteSearch::Decorator).to receive(:call)
+      expect(SiteSearch::Decorator).to receive(:new)
         .with(results)
 
       query.results

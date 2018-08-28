@@ -1,7 +1,7 @@
 require 'delegate'
 
 module SiteSearch
-  class Results
+  class Results < SimpleDelegator
     attr_reader :response,
                 :page,
                 :per_page,
@@ -21,6 +21,8 @@ module SiteSearch
       @collection = @response[:results].map do |response_result|
         ::SiteSearch::Result.new(response_result)
       end
+
+      super(@collection)
     end
   end
 end

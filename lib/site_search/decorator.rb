@@ -1,15 +1,7 @@
 module SiteSearch
-  class Decorator
-    def self.call(collection)
-      new(collection)
-    end
-
-    def initialize(collection)
-      @collection = collection
-    end
-
+  class Decorator < SimpleDelegator
     def page
-      collection.page + 1
+      super + 1
     end
 
     def first_page?
@@ -17,19 +9,15 @@ module SiteSearch
     end
 
     def last_page?
-      page == collection.number_of_pages
+      page == number_of_pages
     end
 
     def previous_page
-      first_page? ? nil : collection.page - 1
+      first_page? ? nil : __getobj__.page - 1
     end
 
     def next_page
-      last_page? ? nil : collection.page + 1
+      last_page? ? nil : __getobj__.page + 1
     end
-
-    private
-
-    attr_reader :collection
   end
 end
