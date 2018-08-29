@@ -11,7 +11,9 @@ module SiteSearch
     def results
       response = adapter.new(options).search(query)
 
-      SiteSearch::Results.new(response)
+      SiteSearch::Decorator.new(
+        SiteSearch::Results.new(response)
+      )
     end
   end
 end
