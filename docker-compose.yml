@@ -1,0 +1,18 @@
+version: '2.1'
+services:
+  rails:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - GITHUB_USER=$GITHUB_TOKEN_USR
+      - GITHUB_PASS=$GITHUB_TOKEN_PSW
+      - DANGER_GITHUB_API_TOKEN=$GITHUB_TOKEN_PSW
+      - CHANGE_ID=$DANGER_CHANGE_ID
+      - CHANGE_URL=$DANGER_CHANGE_URL
+      - JENKINS_URL=$DANGER_JENKINS_URL
+      - LANG=C.UTF-8
+      - ALGOLIA_APPLICATION_ID=test
+      - ALGOLIA_API_KEY=test
+volumes:
+  bundle: {}
