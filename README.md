@@ -127,6 +127,21 @@ docker-compose down && docker-compose build && docker-compose -f docker-compose.
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/moneyadviceservice/site_search. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+## Versioning
+
+When a new version of the gem is ready to be published:
+- Create your feature branch
+- Make a commit updating the following:
+  - version number in `lib/site_search/version.rb` - for reference see the [semver documentation](semver.org)
+  - Add what changes have been made between current and the new version in `history.md`
+- Create a PR for review
+- Once approved, merge the PR into master
+- On `master` branch, tag the repo with the latest version number
+  - `git tag 'v1.2.0'`
+- Push the tag to github
+  - `git push origin master --tags`
+- check the [Site search pipeline](http://az4-svc-bld04.dev.mas.local:8080/job/site_search/job/master/)
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
