@@ -18,13 +18,13 @@ RSpec.describe SiteSearch::Decorator do
 
   describe '#first_page?' do
     context 'when it is the first page' do
-      it { expect(subject.first_page?).to eq(true) }
+      it { expect(subject).to be_first_page }
     end
 
     context 'when it is not the first page' do
       let(:page) { 1 }
 
-      it { expect(subject.first_page?).to eq(false) }
+      it { expect(subject.first_page?).to be false }
     end
   end
 
@@ -32,11 +32,11 @@ RSpec.describe SiteSearch::Decorator do
     context 'when it is the last page' do
       let(:page) { 1 }
 
-      it { expect(subject.last_page?).to eq(true) }
+      it { expect(subject).to be_last_page }
     end
 
     context 'when it is not the last page' do
-      it { expect(subject.last_page?).to eq(false) }
+      it { expect(subject.last_page?).to be false }
     end
   end
 
@@ -44,11 +44,11 @@ RSpec.describe SiteSearch::Decorator do
     context 'when there is a previous page' do
       let(:page) { 1 }
 
-      it { expect(subject.previous_page).to eq(0) }
+      it { expect(subject.previous_page).to be_zero }
     end
 
     context 'when there is not a previous page' do
-      it { expect(subject.previous_page).to eq(nil) }
+      it { expect(subject.previous_page).to be_nil }
     end
   end
 
@@ -60,7 +60,7 @@ RSpec.describe SiteSearch::Decorator do
     context 'when there is not a next page' do
       let(:page) { 1 }
 
-      it { expect(subject.next_page).to eq(nil) }
+      it { expect(subject.next_page).to be_nil }
     end
   end
 end
