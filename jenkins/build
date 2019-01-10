@@ -20,9 +20,8 @@ function run {
         exit_code=1
     fi
 }
-
-run gem install geminabox
-run gem build site_search.gemspec
+run bundle install
+run gem build *.gemspec
 run gem inabox *.gem -g http://gems.dev.mas.local
 
 exit "$exit_code"
