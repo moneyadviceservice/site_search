@@ -20,7 +20,7 @@ end
 
 require 'dotenv/load'
 Algolia.init application_id: ENV['ALGOLIA_APPLICATION_ID'],
-             api_key:        ENV['ALGOLIA_API_KEY']
+             api_key: ENV['ALGOLIA_API_KEY']
 
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/cassettes'
