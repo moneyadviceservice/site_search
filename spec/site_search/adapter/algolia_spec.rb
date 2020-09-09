@@ -6,7 +6,7 @@ RSpec.describe SiteSearch::Adapter::Algolia do
   describe '#search' do
     let(:options) do
       {
-        index: 'pages',
+        index: 'uat_money_advice_service',
         highlightPreTag: '<br>',
         highlightPostTag: '</br>',
         page: 0,
