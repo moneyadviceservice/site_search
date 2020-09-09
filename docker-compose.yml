@@ -13,5 +13,5 @@ services:
       - JENKINS_URL=$DANGER_JENKINS_URL
       - HTTP_REQUEST_TIMEOUT=10
       - LANG=C.UTF-8
-      - ALGOLIA_APPLICATION_ID=test
+      - ALGOLIA_APP_ID=test
       - ALGOLIA_API_KEY=test
