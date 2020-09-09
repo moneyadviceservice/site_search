@@ -2,19 +2,19 @@
 http_interactions:
 - request:
     method: post
-    uri: https://bhpslyij2l-dsn.algolia.net/1/indexes/pages/query
+    uri: https://p3o4x0ie7q-dsn.algolia.net/1/indexes/uat_money_advice_service/query
     body:
       encoding: UTF-8
       string: '{"params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=Looking+after+your+dependants+in+retirement"}'
     headers:
       User-Agent:
-      - Algolia for Ruby 1.19.1
+      - Algolia for Ruby (1.27.3); Ruby (2.5.3)
       Accept:
       - "*/*"
       Accept-Encoding:
       - gzip,deflate
       Date:
-      - Tue, 27 Mar 2018 10:59:34 GMT
+      - Wed, 09 Sep 2020 13:46:44 GMT
       X-Algolia-Api-Key:
       - "<API_KEY>"
       X-Algolia-Application-Id:
@@ -29,27 +29,87 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 27 Mar 2018 10:59:35 GMT
+      - Wed, 09 Sep 2020 13:46:44 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
+      X-Alg-Pt:
+      - '1'
+      Accept-Encoding:
+      - deflate, gzip
+      Cache-Control:
+      - no-store
       Access-Control-Allow-Origin:
       - "*"
-      Cache-Control:
-      - no-cache
+      Timing-Allow-Origin:
+      - "*"
       X-Content-Type-Options:
       - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
       Content-Disposition:
       - inline; filename=a.txt
       Content-Encoding:
       - gzip
     body:
       encoding: UTF-8
-      string: |
-        {"hits":[{"title":"Looking after your dependants in retirement","description":"How to make sure that your partner and/or children will be provided for when you retire.","published_at":"2017-06-19T10:53:06.000Z","objectID":"/en/articles/looking-after-your-dependants-in-retirement","_highlightResult":{"title":{"value":"<br>Looking</br> <br>after</br> <br>your</br> <br>dependants</br> <br>in</br> <br>retirement</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["looking","after","your","dependants","in","retirement"]},"description":{"value":"How to make sure that <br>your</br> partner and/or children will be provided for when you retire.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["your"]},"published_at":{"value":"2017-06-19T10:53:06.000Z","matchLevel":"none","matchedWords":[]}}}],"nbHits":1,"page":0,"nbPages":1,"hitsPerPage":10,"processingTimeMS":3,"exhaustiveNbHits":true,"query":"Looking after your dependants in retirement","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=Looking+after+your+dependants+in+retirement"}
-    http_version: 
-  recorded_at: Tue, 27 Mar 2018 10:59:35 GMT
-recorded_with: VCR 4.0.0
+      string: '{"hits":[{"url":"https://www.moneyadviceservice.org.uk/en/articles/looking-after-your-dependants-in-retirement","hostname":"www.moneyadviceservice.org.uk","path":"/en/articles/looking-after-your-dependants-in-retirement","depth":3,"contentLength":225302,"fileType":"html","title":"Looking
+        after your dependants in retirement - Money Advice Service","description":"How
+        to make sure that your partner and/or children will be provided for when you
+        retire.","type":"article","image":"https://mascdn.azureedge.net/frontend/a/MAS-logo_social-sharing-ae38c6a25f85e14384af1ddf22614816.png","headers":["Looking
+        after your dependants in retirement","Before you retire","When you retire","Buying
+        an annuity","Did you find this guide helpful?","Care to share?","Thank you
+        for your feedback","Share this article","Related guides","Most read","From
+        our blog","More in ''Managing money and planning ahead''","Related guides","Most
+        read","From our blog","Pensions and retirement","\n    Web chat","WhatsApp
+        Logo\n\n    WhatsApp","\n    Contact Us"],"objectID":"f55a2dde-d0ff-4ccf-9cfa-31827fcc4203","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/articles/<br>looking</br>-<br>after</br>-<br>your</br>-<br>dependants</br>-<br>in</br>-<br>retirement</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["looking","after","your","dependants","in","retirement"]},"title":{"value":"<br>Looking</br>
+        <br>after</br> <br>your</br> <br>dependants</br> <br>in</br> <br>retirement</br>
+        - Money Advice Service","matchLevel":"full","fullyHighlighted":false,"matchedWords":["looking","after","your","dependants","in","retirement"]},"description":{"value":"How
+        to make sure that <br>your</br> partner and/or children will be provided for
+        when you retire.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["your"]},"headers":[{"value":"<br>Looking</br>
+        <br>after</br> <br>your</br> <br>dependants</br> <br>in</br> <br>retirement</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["looking","after","your","dependants","in","retirement"]},{"value":"Before
+        you retire","matchLevel":"none","matchedWords":[]},{"value":"When you retire","matchLevel":"none","matchedWords":[]},{"value":"Buying
+        an annuity","matchLevel":"none","matchedWords":[]},{"value":"Did you find
+        this guide helpful?","matchLevel":"none","matchedWords":[]},{"value":"Care
+        to share?","matchLevel":"none","matchedWords":[]},{"value":"Thank you for
+        <br>your</br> feedback","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["your"]},{"value":"Share
+        this article","matchLevel":"none","matchedWords":[]},{"value":"Related guides","matchLevel":"none","matchedWords":[]},{"value":"Most
+        read","matchLevel":"none","matchedWords":[]},{"value":"From our blog","matchLevel":"none","matchedWords":[]},{"value":"More
+        <br>in</br> ''Managing money and planning ahead''","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["in"]},{"value":"Related
+        guides","matchLevel":"none","matchedWords":[]},{"value":"Most read","matchLevel":"none","matchedWords":[]},{"value":"From
+        our blog","matchLevel":"none","matchedWords":[]},{"value":"Pensions and <br>retirement</br>","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["retirement"]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/cy/articles/looking-after-your-dependants-in-retirement","hostname":"www.moneyadviceservice.org.uk","path":"/cy/articles/looking-after-your-dependants-in-retirement","depth":3,"contentLength":227239,"fileType":"html","title":"Gofalu
+        am eich disgynyddion wedi ymddeol - Y Gwasanaeth Cynghori Ariannol","description":"How
+        to make sure that your partner and/or children will be provided for when you
+        retire.","type":"article","image":"https://mascdn.azureedge.net/frontend/a/MAS-logo_social-sharing-ae38c6a25f85e14384af1ddf22614816.png","headers":["Gofalu
+        am eich disgynyddion wedi ymddeol","Cyn i chi ymddeol","Pan fyddwch yn ymddeol","Prynu
+        blwydd­dal","A oedd y canllaw hwn o ddefnydd i chi?","Wnewch chi rannu’ch
+        sylwadau?","Diolch am eich adborth","Rhannwch yr erthygl hon","Erthyglau cysylltiedig","Mwyaf
+        poblogaidd","O’n blog","Mwy yn ''Rheoli arian a chynllunio ymlaen''","Erthyglau
+        cysylltiedig","Mwyaf poblogaidd","O’n blog","Pensiynau ac ymddeoliad","\n    Gwe-sgwrs","WhatsApp
+        Logo\n\n    WhatsApp","\n    Cysylltwch â ni​​"],"objectID":"97b4fb65-4359-42f8-a545-c5abc666025c","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/cy/articles/<br>looking</br>-<br>after</br>-<br>your</br>-<br>dependants</br>-<br>in</br>-<br>retirement</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["looking","after","your","dependants","in","retirement"]},"title":{"value":"Gofalu
+        am eich disgynyddion wedi ymddeol - Y Gwasanaeth Cynghori Ariannol","matchLevel":"none","matchedWords":[]},"description":{"value":"How
+        to make sure that <br>your</br> partner and/or children will be provided for
+        when you retire.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["your"]},"headers":[{"value":"Gofalu
+        am eich disgynyddion wedi ymddeol","matchLevel":"none","matchedWords":[]},{"value":"Cyn
+        i chi ymddeol","matchLevel":"none","matchedWords":[]},{"value":"Pan fyddwch
+        yn ymddeol","matchLevel":"none","matchedWords":[]},{"value":"Prynu blwydd­dal","matchLevel":"none","matchedWords":[]},{"value":"A
+        oedd y canllaw hwn o ddefnydd i chi?","matchLevel":"none","matchedWords":[]},{"value":"Wnewch
+        chi rannu’ch sylwadau?","matchLevel":"none","matchedWords":[]},{"value":"Diolch
+        am eich adborth","matchLevel":"none","matchedWords":[]},{"value":"Rhannwch
+        yr erthygl hon","matchLevel":"none","matchedWords":[]},{"value":"Erthyglau
+        cysylltiedig","matchLevel":"none","matchedWords":[]},{"value":"Mwyaf poblogaidd","matchLevel":"none","matchedWords":[]},{"value":"O’n
+        blog","matchLevel":"none","matchedWords":[]},{"value":"Mwy yn ''Rheoli arian
+        a chynllunio ymlaen''","matchLevel":"none","matchedWords":[]},{"value":"Erthyglau
+        cysylltiedig","matchLevel":"none","matchedWords":[]},{"value":"Mwyaf poblogaidd","matchLevel":"none","matchedWords":[]},{"value":"O’n
+        blog","matchLevel":"none","matchedWords":[]},{"value":"Pensiynau ac ymddeoliad","matchLevel":"none","matchedWords":[]},{"value":"\n    Gwe-sgwrs","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp
+        Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Cysylltwch
+        â ni​​","matchLevel":"none","matchedWords":[]}]}}],"nbHits":2,"page":0,"nbPages":1,"hitsPerPage":10,"exhaustiveNbHits":true,"query":"Looking
+        after your dependants in retirement","queryAfterRemoval":"Looking after your
+        dependants in retirement","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=Looking+after+your+dependants+in+retirement","processingTimeMS":1}'
+  recorded_at: Wed, 09 Sep 2020 13:46:44 GMT
+recorded_with: VCR 6.0.0

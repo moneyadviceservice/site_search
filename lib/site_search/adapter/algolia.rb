@@ -39,7 +39,8 @@ module SiteSearch
           {
             title: highlight_result['title']['value'],
             description: description,
-            link: hit['objectID'],
+            link: hit['path'],
+            id: hit['objectID'],
             raw: {
               title: hit['title'],
               description: hit['description']

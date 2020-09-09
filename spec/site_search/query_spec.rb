@@ -3,7 +3,7 @@ RSpec.describe SiteSearch::Query do
     described_class.new('query', options: options, adapter: adapter)
   end
 
-  let(:options) { { index: 'pages' } }
+  let(:options) { { index: 'uat_money_advice_service' } }
   let(:adapter) { double(SiteSearch::Adapter::Local) }
 
   describe '#results' do

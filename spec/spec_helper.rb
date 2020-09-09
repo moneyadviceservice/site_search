@@ -19,14 +19,14 @@ RSpec.configure do |config|
 end
 
 require 'dotenv/load'
-Algolia.init application_id: ENV['ALGOLIA_APPLICATION_ID'],
+Algolia.init application_id: ENV['ALGOLIA_APP_ID'],
              api_key: ENV['ALGOLIA_API_KEY']
 
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/cassettes'
   config.hook_into :webmock
   config.filter_sensitive_data('<API_KEY>') { ENV['ALGOLIA_API_KEY'] }
-  config.filter_sensitive_data('<APP_ID>') { ENV['ALGOLIA_APPLICATION_ID'] }
+  config.filter_sensitive_data('<APP_ID>') { ENV['ALGOLIA_APP_ID'] }
 end
 
 SiteSearch.config do |config|

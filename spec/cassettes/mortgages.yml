@@ -2,19 +2,19 @@
 http_interactions:
 - request:
     method: post
-    uri: https://bhpslyij2l-dsn.algolia.net/1/indexes/pages/query
+    uri: https://p3o4x0ie7q-dsn.algolia.net/1/indexes/uat_money_advice_service/query
     body:
       encoding: UTF-8
       string: '{"params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=mortgages"}'
     headers:
       User-Agent:
-      - Algolia for Ruby 1.19.1
+      - Algolia for Ruby (1.27.3); Ruby (2.5.3)
       Accept:
       - "*/*"
       Accept-Encoding:
       - gzip,deflate
       Date:
-      - Wed, 28 Mar 2018 10:44:39 GMT
+      - Wed, 09 Sep 2020 13:24:40 GMT
       X-Algolia-Api-Key:
       - "<API_KEY>"
       X-Algolia-Application-Id:
@@ -29,27 +29,188 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 28 Mar 2018 10:44:39 GMT
+      - Wed, 09 Sep 2020 13:24:40 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
+      X-Alg-Pt:
+      - '1'
+      Accept-Encoding:
+      - deflate, gzip
+      Cache-Control:
+      - no-store
       Access-Control-Allow-Origin:
       - "*"
-      Cache-Control:
-      - no-cache
+      Timing-Allow-Origin:
+      - "*"
       X-Content-Type-Options:
       - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
       Content-Disposition:
       - inline; filename=a.txt
       Content-Encoding:
       - gzip
     body:
       encoding: UTF-8
-      string: |
-        {"hits":[{"title":"Mortgages","description":null,"links":[],"objectID":"/en/categories/mortgages","_highlightResult":{"title":{"value":"<br>Mortgages</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["mortgages"]}}},{"title":"Mortgages – a beginner’s guide","description":"Mortgages are a major financial responsibility. Make sure you understand what you are taking on before you commit to one","published_at":"2017-07-27T14:56:05.000Z","objectID":"/en/articles/mortgages-a-beginners-guide","_highlightResult":{"title":{"value":"<br>Mortgages</br> – a beginner’s guide","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"<br>Mortgages</br> are a major financial responsibility. Make sure you understand what you are taking on before you commit to one","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"published_at":{"value":"2017-07-27T14:56:05.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Homes and mortgages","description":"Everything you need to know about buying a home and choosing the right mortgage","links":[{"id":127,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"How much mortgage can you afford to borrow","url":"/en/tools/house-buying/mortgage-affordability-calculator","locale":"en"},{"id":129,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"Mortgage calculator – work out your monthly payments","url":"/en/tools/mortgage-calculator","locale":"en"},{"id":131,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"Stamp Duty calculator","url":"/en/tools/house-buying/stamp-duty-calculator","locale":"en"},{"id":133,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"First-time buyer guide","url":"/en/articles/first-time-buyer-money-tips","locale":"en"},{"id":135,"linkable_type":"Comfy::Cms::Category","linkable_id":96,"text":"Remortgaging guide","url":"/en/articles/remortgaging-to-cut-costs","locale":"en"}],"objectID":"/en/categories/homes-and-mortgages","_highlightResult":{"title":{"value":"Homes and <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Everything you need to know about buying a home and choosing the right mortgage","matchLevel":"none","matchedWords":[]},"links":[{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"How much mortgage can you afford to borrow","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/tools/house-buying/mortgage-affordability-calculator","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}},{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"Mortgage calculator – work out your monthly payments","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/tools/mortgage-calculator","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}},{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"Stamp Duty calculator","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/tools/house-buying/stamp-duty-calculator","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}},{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"First-time buyer guide","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/articles/first-time-buyer-money-tips","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}},{"linkable_type":{"value":"Comfy::Cms::Category","matchLevel":"none","matchedWords":[]},"text":{"value":"Remortgaging guide","matchLevel":"none","matchedWords":[]},"url":{"value":"/en/articles/remortgaging-to-cut-costs","matchLevel":"none","matchedWords":[]},"locale":{"value":"en","matchLevel":"none","matchedWords":[]}}]}},{"title":"Help with mortgages","description":"Get started with our beginner's guide to mortgages, getting the right deal, and tips if you're struggling to pay.","links":[],"objectID":"/en/categories/help-with-mortgages","_highlightResult":{"title":{"value":"Help with <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Get started with our beginner's guide to <br>mortgages</br>, getting the right deal, and tips if you're struggling to pay.","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]}}},{"title":"A guide to mortgages with special features","description":"Find out more about special features, such as cashback, offsetting or overpayments","published_at":"2017-07-26T14:39:24.000Z","objectID":"/en/articles/mortgage-special-features","_highlightResult":{"title":{"value":"A guide to <br>mortgages</br> with special features","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Find out more about special features, such as cashback, offsetting or overpayments","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-07-26T14:39:24.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Mis-sold endowment mortgages","description":"If you think you were mis-sold an endowment mortgage act quickly – time limits and process for claiming compensation","published_at":"2017-05-08T10:58:11.000Z","objectID":"/en/articles/mis-sold-endowment-mortgages","_highlightResult":{"title":{"value":"Mis-sold endowment <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"If you think you were mis-sold an endowment mortgage act quickly – time limits and process for claiming compensation","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-05-08T10:58:11.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Buy-to-let mortgages explained","description":"Considering a Buy to Let mortgage? Read our guide to learn how they work, eligibility, how to apply and common mistakes to avoid and how to apply.","published_at":"2017-06-28T14:13:53.000Z","objectID":"/en/articles/buy-to-let-mortgages","_highlightResult":{"title":{"value":"Buy-to-let <br>mortgages</br> explained","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Considering a Buy to Let mortgage? Read our guide to learn how they work, eligibility, how to apply and common mistakes to avoid and how to apply.","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-06-28T14:13:53.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Shared equity or partnership mortgages","description":"How shared equity or Partnership Mortgages work, the pros and cons and who they are suitable for","published_at":"2017-06-08T15:06:44.000Z","objectID":"/en/articles/shared-equity-or-partnership-mortgages","_highlightResult":{"title":{"value":"Shared equity or partnership <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"How shared equity or Partnership <br>Mortgages</br> work, the pros and cons and who they are suitable for","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"published_at":{"value":"2017-06-08T15:06:44.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Second charge or second mortgages","description":"A secured charge is a loan which uses the borrower's house as security and is often called Second Mortgage, however there are distinct differences.","published_at":"2017-06-19T12:51:27.000Z","objectID":"/en/articles/second-charge-or-second-mortgages","_highlightResult":{"title":{"value":"Second charge or second <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"A secured charge is a loan which uses the borrower's house as security and is often called Second Mortgage, however there are distinct differences.","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-06-19T12:51:27.000Z","matchLevel":"none","matchedWords":[]}}},{"title":"Understanding different types of mortgages","description":"A quick overview of the different types of mortgage interest rate including pros and cons","published_at":"2017-05-08T10:58:47.000Z","objectID":"/en/articles/mortgage-interest-rate-options","_highlightResult":{"title":{"value":"Understanding different types of <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"A quick overview of the different types of mortgage interest rate including pros and cons","matchLevel":"none","matchedWords":[]},"published_at":{"value":"2017-05-08T10:58:47.000Z","matchLevel":"none","matchedWords":[]}}}],"nbHits":55,"page":0,"nbPages":6,"hitsPerPage":10,"processingTimeMS":1,"exhaustiveNbHits":true,"query":"mortgages","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=mortgages"}
-    http_version: 
-  recorded_at: Wed, 28 Mar 2018 10:44:40 GMT
-recorded_with: VCR 4.0.0
+      string: '{"hits":[{"url":"https://www.moneyadviceservice.org.uk/blog/first-time-buyer-the-answers-i-really-wanted","hostname":"www.moneyadviceservice.org.uk","path":"/blog/first-time-buyer-the-answers-i-really-wanted","depth":2,"contentLength":77429,"fileType":"html","title":"First-time
+        buyer – the answers I really wanted","keywords":"mortgages","description":"As
+        a first-time buyer you probably have a lot of questions. Here are the ones
+        you really wanted the answers to. ","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/722/hero/resized_couple_painting_home.jpg","headers":["First-time
+        buyer – the answers I really wanted","My eight mortgage questions answered","What
+        do you think?","Footer links"],"objectID":"fe5a1d97-1e06-4fd1-b5ff-67f5e1f4a724","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/first-time-buyer-the-answers-i-really-wanted","matchLevel":"none","matchedWords":[]},"title":{"value":"First-time
+        buyer – the answers I really wanted","matchLevel":"none","matchedWords":[]},"keywords":{"value":"<br>mortgages</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["mortgages"]},"description":{"value":"As
+        a first-time buyer you probably have a lot of questions. Here are the ones
+        you really wanted the answers to. ","matchLevel":"none","matchedWords":[]},"headers":[{"value":"First-time
+        buyer – the answers I really wanted","matchLevel":"none","matchedWords":[]},{"value":"My
+        eight mortgage questions answered","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/buying-a-house-dont-forget-these-costs","hostname":"www.moneyadviceservice.org.uk","path":"/blog/buying-a-house-dont-forget-these-costs","depth":2,"contentLength":74150,"fileType":"html","title":"Buying
+        a house? Don’t forget these costs","keywords":"mortgages","description":"If
+        you’re house hunting the main numbers you probably think about are the house
+        price and monthly mortgage payments, but there’s more you need to consider
+        which could considerably increase the cost of buying a home.","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/1009/hero/resized_Row_of_houses_on_road_cropped.jpg","headers":["Buying
+        a house? Don’t forget these costs","1. Stamp Duty","2.  Mortgage fees","3.
+        Valuation fees","4. Survey fee","5. Legal Fees","6. Local Searches","7. Transfer
+        fee","8. Moving costs","What do you think?","Footer links"],"objectID":"f8b9de9e-cd7e-4015-86ab-cb5c6994c031","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/buying-a-house-dont-forget-these-costs","matchLevel":"none","matchedWords":[]},"title":{"value":"Buying
+        a house? Don’t forget these costs","matchLevel":"none","matchedWords":[]},"keywords":{"value":"<br>mortgages</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["mortgages"]},"description":{"value":"If
+        you’re house hunting the main numbers you probably think about are the house
+        price and monthly mortgage payments, but there’s more you need to consider
+        which could considerably increase the cost of buying a home.","matchLevel":"none","matchedWords":[]},"headers":[{"value":"Buying
+        a house? Don’t forget these costs","matchLevel":"none","matchedWords":[]},{"value":"1. Stamp
+        Duty","matchLevel":"none","matchedWords":[]},{"value":"2.  Mortgage fees","matchLevel":"none","matchedWords":[]},{"value":"3.
+        Valuation fees","matchLevel":"none","matchedWords":[]},{"value":"4. Survey
+        fee","matchLevel":"none","matchedWords":[]},{"value":"5. Legal Fees","matchLevel":"none","matchedWords":[]},{"value":"6.
+        Local Searches","matchLevel":"none","matchedWords":[]},{"value":"7. Transfer
+        fee","matchLevel":"none","matchedWords":[]},{"value":"8. Moving costs","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/how-much-does-the-average-mortgage-cost","hostname":"www.moneyadviceservice.org.uk","path":"/blog/how-much-does-the-average-mortgage-cost","depth":2,"contentLength":78163,"fileType":"html","title":"How
+        much does the average mortgage cost?","keywords":"mortgages","description":"Knowing
+        when you’ve got a good mortgage deal is hard, isn’t it? If you know some of
+        the average costs and interest rates when it comes to mortgages, you’d at
+        least have a start.","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/1175/hero/resized_How_much_does_the_average_mortgage_cost.jpg","headers":["How
+        much does the average mortgage cost?","Average mortgage interest rates","Average
+        length of a mortgage","Average monthly payments on a mortgage","Average total
+        cost including interest of a mortgage","What do you think?","Footer links"],"objectID":"a82909c4-3379-40fc-9da0-f2bbf660ad9f","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/how-much-does-the-average-mortgage-cost","matchLevel":"none","matchedWords":[]},"title":{"value":"How
+        much does the average mortgage cost?","matchLevel":"none","matchedWords":[]},"keywords":{"value":"<br>mortgages</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["mortgages"]},"description":{"value":"Knowing
+        when you’ve got a good mortgage deal is hard, isn’t it? If you know some of
+        the average costs and interest rates when it comes to <br>mortgages</br>,
+        you’d at least have a start.","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"headers":[{"value":"How
+        much does the average mortgage cost?","matchLevel":"none","matchedWords":[]},{"value":"Average
+        mortgage interest rates","matchLevel":"none","matchedWords":[]},{"value":"Average
+        length of a mortgage","matchLevel":"none","matchedWords":[]},{"value":"Average
+        monthly payments on a mortgage","matchLevel":"none","matchedWords":[]},{"value":"Average
+        total cost including interest of a mortgage","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/could-a-30-year-mortgage-help-you-buy-a-home","hostname":"www.moneyadviceservice.org.uk","path":"/blog/could-a-30-year-mortgage-help-you-buy-a-home","depth":2,"contentLength":75716,"fileType":"html","title":"Could
+        a 30 year mortgage help you buy a home?","keywords":"mortgages","description":"Mortgages
+        which go longer than the traditional 25 years have increased in popularity.
+        Could they be right for you?","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/671/hero/resized_Row_of_houses_on_road_cropped.jpg","headers":["Could
+        a 30 year mortgage help you buy a home?","The potential benefit ","But don''t
+        forget…","What are the other ways you could make your mortgage more affordable?","What
+        do you think?","Footer links"],"objectID":"1fe82cef-e6c0-4bfb-a961-88a07ff4581e","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/could-a-30-year-mortgage-help-you-buy-a-home","matchLevel":"none","matchedWords":[]},"title":{"value":"Could
+        a 30 year mortgage help you buy a home?","matchLevel":"none","matchedWords":[]},"keywords":{"value":"<br>mortgages</br>","matchLevel":"full","fullyHighlighted":true,"matchedWords":["mortgages"]},"description":{"value":"<br>Mortgages</br>
+        which go longer than the traditional 25 years have increased in popularity.
+        Could they be right for you?","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"headers":[{"value":"Could
+        a 30 year mortgage help you buy a home?","matchLevel":"none","matchedWords":[]},{"value":"The
+        potential benefit ","matchLevel":"none","matchedWords":[]},{"value":"But don''t
+        forget…","matchLevel":"none","matchedWords":[]},{"value":"What are the other
+        ways you could make your mortgage more affordable?","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/interest-rates-what-homeowners-can-do-now-to-beat-the-rise","hostname":"www.moneyadviceservice.org.uk","path":"/blog/interest-rates-what-homeowners-can-do-now-to-beat-the-rise","depth":2,"contentLength":76923,"fileType":"html","title":"Interest
+        rates - What homeowners can do NOW to beat a rise","keywords":"budgeting,
+        homes, mortgages","description":"It’s impossible to know exactly when this
+        will happen, but if you have a mortgage it pays to get ready","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/20/hero/resized_house_on_street.jpg","headers":["Interest
+        rates - What homeowners can do NOW to beat a rise","1.    Find out how much
+        an interest rate rise will cost you","2.    See how much you can afford","3.    Think
+        about overpaying","4.    Explore a new mortgage deal","What do you think?","Footer
+        links"],"objectID":"f739651c-9165-4f79-ad1c-032a39db6d89","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/interest-rates-what-homeowners-can-do-now-to-beat-the-rise","matchLevel":"none","matchedWords":[]},"title":{"value":"Interest
+        rates - What homeowners can do NOW to beat a rise","matchLevel":"none","matchedWords":[]},"keywords":{"value":"budgeting,
+        homes, <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"It’s
+        impossible to know exactly when this will happen, but if you have a mortgage
+        it pays to get ready","matchLevel":"none","matchedWords":[]},"headers":[{"value":"Interest
+        rates - What homeowners can do NOW to beat a rise","matchLevel":"none","matchedWords":[]},{"value":"1.    Find
+        out how much an interest rate rise will cost you","matchLevel":"none","matchedWords":[]},{"value":"2.    See
+        how much you can afford","matchLevel":"none","matchedWords":[]},{"value":"3.    Think
+        about overpaying","matchLevel":"none","matchedWords":[]},{"value":"4.    Explore
+        a new mortgage deal","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/a-year-on-from-mortgage-shake-up-how-to-prepare-for-your-application","hostname":"www.moneyadviceservice.org.uk","path":"/blog/a-year-on-from-mortgage-shake-up-how-to-prepare-for-your-application","depth":2,"contentLength":79891,"fileType":"html","title":"A
+        year on from the mortgage shake up - how to prepare for your application","keywords":"homes,
+        mortgages, home-buying","description":"It''s amost a year since a major shake-up
+        in lending rules meant anyone after a new mortgage had to provide more evidence
+        they can afford a home than ever before. Here''s how to prepare.","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/322/hero/resized_houses.jpg","headers":["A
+        year on from the mortgage shake up - how to prepare for your application","What
+        do you think?","Footer links"],"objectID":"f56ee4f8-f231-4b3e-a547-7157d88e5982","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/a-year-on-from-mortgage-shake-up-how-to-prepare-for-your-application","matchLevel":"none","matchedWords":[]},"title":{"value":"A
+        year on from the mortgage shake up - how to prepare for your application","matchLevel":"none","matchedWords":[]},"keywords":{"value":"homes,
+        <br>mortgages</br>, home-buying","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"It''s
+        amost a year since a major shake-up in lending rules meant anyone after a
+        new mortgage had to provide more evidence they can afford a home than ever
+        before. Here''s how to prepare.","matchLevel":"none","matchedWords":[]},"headers":[{"value":"A
+        year on from the mortgage shake up - how to prepare for your application","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/how-to-pay-back-an-interest-only-mortgage","hostname":"www.moneyadviceservice.org.uk","path":"/blog/how-to-pay-back-an-interest-only-mortgage","depth":2,"contentLength":75627,"fileType":"html","title":"How
+        to pay back an interest-only mortgage","keywords":"remortgage, homes, mortgages","description":"If
+        you have an interest-only mortgage on your property, you could face problems
+        if you don’t have a plan to pay back the original loan when it ends.","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/314/hero/resized_row_of_houses_cropped.jpg","headers":["How
+        to pay back an interest-only mortgage","Make sure you have a suitable repayment
+        plan","Talk to your lender as soon as possible","Consider switching from an
+        interest-only to a capital and interest mortgage","What do you think?","Footer
+        links"],"objectID":"f18d47a8-2c63-4a49-99ef-3dc09c5c9013","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/how-to-pay-back-an-interest-only-mortgage","matchLevel":"none","matchedWords":[]},"title":{"value":"How
+        to pay back an interest-only mortgage","matchLevel":"none","matchedWords":[]},"keywords":{"value":"remortgage,
+        homes, <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"If
+        you have an interest-only mortgage on your property, you could face problems
+        if you don’t have a plan to pay back the original loan when it ends.","matchLevel":"none","matchedWords":[]},"headers":[{"value":"How
+        to pay back an interest-only mortgage","matchLevel":"none","matchedWords":[]},{"value":"Make
+        sure you have a suitable repayment plan","matchLevel":"none","matchedWords":[]},{"value":"Talk
+        to your lender as soon as possible","matchLevel":"none","matchedWords":[]},{"value":"Consider
+        switching from an interest-only to a capital and interest mortgage","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/one-million-face-interest-only-mortgage-struggle","hostname":"www.moneyadviceservice.org.uk","path":"/blog/one-million-face-interest-only-mortgage-struggle","depth":2,"contentLength":72501,"fileType":"html","title":"One
+        million face interest-only mortgage struggle","keywords":"mortgages, investing,
+        news","description":"If you don''t have a plan to repay your interest-only
+        mortgage, we''ve some tips to help you start planning.","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/476/hero/resized_houses.jpg","headers":["One
+        million face interest-only mortgage struggle","See if you can pay any capital","Try
+        to come up with a suitable repayment plan","Talk to your mortgage lender","See
+        if switching to a repayment mortgage will help","What do you think?","Footer
+        links"],"objectID":"f00260f8-68b4-4b12-9bfd-b3237bb49360","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/one-million-face-interest-only-mortgage-struggle","matchLevel":"none","matchedWords":[]},"title":{"value":"One
+        million face interest-only mortgage struggle","matchLevel":"none","matchedWords":[]},"keywords":{"value":"<br>mortgages</br>,
+        investing, news","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"If
+        you don''t have a plan to repay your interest-only mortgage, we''ve some tips
+        to help you start planning.","matchLevel":"none","matchedWords":[]},"headers":[{"value":"One
+        million face interest-only mortgage struggle","matchLevel":"none","matchedWords":[]},{"value":"See
+        if you can pay any capital","matchLevel":"none","matchedWords":[]},{"value":"Try
+        to come up with a suitable repayment plan","matchLevel":"none","matchedWords":[]},{"value":"Talk
+        to your mortgage lender","matchLevel":"none","matchedWords":[]},{"value":"See
+        if switching to a repayment mortgage will help","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/buying-a-house-why-you-shouldnt-change-your-mobile","hostname":"www.moneyadviceservice.org.uk","path":"/blog/buying-a-house-why-you-shouldnt-change-your-mobile","depth":2,"contentLength":82255,"fileType":"html","title":"Buying
+        a house? How applying for other credit could harm your application","keywords":"credit-score,
+        credit-rating, mobile-phones, bills, gas, electricity, homes, mortgages","description":"There
+        are many different ways to improve your credit rating but the easiest way
+        to make sure you don’t damage your rating is to avoid applying for more credit.","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/21/hero/resized_for_sale_signs.jpg","headers":["Buying
+        a house? How applying for other credit could harm your application","Why you
+        should be careful what credit you apply for","Where you might be credit checked","What
+        do you think?","Footer links"],"objectID":"e05eab87-ac6e-4750-9a7f-47a2fc39dde6","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/buying-a-house-why-you-shouldnt-change-your-mobile","matchLevel":"none","matchedWords":[]},"title":{"value":"Buying
+        a house? How applying for other credit could harm your application","matchLevel":"none","matchedWords":[]},"keywords":{"value":"credit-score,
+        credit-rating, mobile-phones, bills, gas, electricity, homes, <br>mortgages</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"There
+        are many different ways to improve your credit rating but the easiest way
+        to make sure you don’t damage your rating is to avoid applying for more credit.","matchLevel":"none","matchedWords":[]},"headers":[{"value":"Buying
+        a house? How applying for other credit could harm your application","matchLevel":"none","matchedWords":[]},{"value":"Why
+        you should be careful what credit you apply for","matchLevel":"none","matchedWords":[]},{"value":"Where
+        you might be credit checked","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/blog/should-you-overpay-your-mortgage","hostname":"www.moneyadviceservice.org.uk","path":"/blog/should-you-overpay-your-mortgage","depth":2,"contentLength":74029,"fileType":"html","title":"Should
+        you overpay your mortgage?","keywords":"mortgages, home-buying","description":"Should
+        you overpay your mortgage?","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/838/hero/resized_couple-at-estate-agents.jpg","headers":["Should
+        you overpay your mortgage?","The benefits of overpaying your mortgage","Is
+        there a better option?","Pay off more expensive debts","Put it in a pension","Build
+        a savings buffer","How to overpay your mortgage","What do you think?","Footer
+        links"],"objectID":"dead8df2-e1fc-40fc-9f33-71fd5cdb5bc8","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/should-you-overpay-your-mortgage","matchLevel":"none","matchedWords":[]},"title":{"value":"Should
+        you overpay your mortgage?","matchLevel":"none","matchedWords":[]},"keywords":{"value":"<br>mortgages</br>,
+        home-buying","matchLevel":"full","fullyHighlighted":false,"matchedWords":["mortgages"]},"description":{"value":"Should
+        you overpay your mortgage?","matchLevel":"none","matchedWords":[]},"headers":[{"value":"Should
+        you overpay your mortgage?","matchLevel":"none","matchedWords":[]},{"value":"The
+        benefits of overpaying your mortgage","matchLevel":"none","matchedWords":[]},{"value":"Is
+        there a better option?","matchLevel":"none","matchedWords":[]},{"value":"Pay
+        off more expensive debts","matchLevel":"none","matchedWords":[]},{"value":"Put
+        it in a pension","matchLevel":"none","matchedWords":[]},{"value":"Build a
+        savings buffer","matchLevel":"none","matchedWords":[]},{"value":"How to overpay
+        your mortgage","matchLevel":"none","matchedWords":[]},{"value":"What do you
+        think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}}],"nbHits":230,"page":0,"nbPages":23,"hitsPerPage":10,"exhaustiveNbHits":true,"query":"mortgages","queryAfterRemoval":"mortgages","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=mortgages","processingTimeMS":1}'
+  recorded_at: Wed, 09 Sep 2020 13:24:40 GMT
+recorded_with: VCR 6.0.0
