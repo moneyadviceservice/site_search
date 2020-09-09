@@ -2,19 +2,19 @@
 http_interactions:
 - request:
     method: post
-    uri: https://xgb5qlte67-dsn.algolia.net/1/indexes/pages/query
+    uri: https://p3o4x0ie7q-dsn.algolia.net/1/indexes/uat_money_advice_service/query
     body:
       encoding: UTF-8
       string: '{"params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=where+free+advice"}'
     headers:
       User-Agent:
-      - Algolia for Ruby 1.19.1
+      - Algolia for Ruby (1.27.3); Ruby (2.5.3)
       Accept:
       - "*/*"
       Accept-Encoding:
       - gzip,deflate
       Date:
-      - Wed, 28 Mar 2018 17:02:17 GMT
+      - Wed, 09 Sep 2020 13:24:40 GMT
       X-Algolia-Api-Key:
       - "<API_KEY>"
       X-Algolia-Application-Id:
@@ -29,27 +29,231 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Wed, 28 Mar 2018 17:02:18 GMT
+      - Wed, 09 Sep 2020 13:24:40 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
+      X-Alg-Pt:
+      - '1'
+      Accept-Encoding:
+      - deflate, gzip
+      Cache-Control:
+      - no-store
       Access-Control-Allow-Origin:
       - "*"
-      Cache-Control:
-      - no-cache
+      Timing-Allow-Origin:
+      - "*"
       X-Content-Type-Options:
       - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
       Content-Disposition:
       - inline; filename=a.txt
       Content-Encoding:
       - gzip
     body:
       encoding: UTF-8
-      string: |
-        {"hits":[{"title":"Where to go to get free debt advice","description":"Free debt advice and help locator tool. Use our tool to find a debt advice service near you that's accredited by the Money Advice Service.","content":"<p>Tool</p>\n","published_at":"2018-03-27T14:07:30.000Z","objectID":"/en/tools/debt-advice-locator","_highlightResult":{"title":{"value":"<br>Where</br> to go to get <br>free</br> debt <br>advice</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]}}}],"nbHits":1,"page":0,"nbPages":1,"hitsPerPage":10,"processingTimeMS":1,"exhaustiveNbHits":true,"query":"where free advice","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=where+free+advice"}
-    http_version: 
-  recorded_at: Wed, 28 Mar 2018 17:02:18 GMT
-recorded_with: VCR 4.0.0
+      string: '{"hits":[{"url":"https://www.moneyadviceservice.org.uk/blog/free-debt-advice-can-help-ease-money-worries","hostname":"www.moneyadviceservice.org.uk","path":"/blog/free-debt-advice-can-help-ease-money-worries","depth":2,"contentLength":74285,"fileType":"html","title":"Free
+        debt advice can help ease money worries","keywords":"debt","description":"Close
+        to two thirds of people who received regulated debt advice were repaying the
+        money they owed or had repaid in full within three to six months.","type":"article","image":"https://masassets.blob.core.windows.net/blog/files/article/951/hero/resized_couple_worrrying_about_bills_cropped.jpg","headers":["Free
+        debt advice can help ease money worries","Relieving the burden","Where to
+        get free debt advice","Avoid fee charging debt management firms","Options
+        for clearing debts","What do you think?","Footer links"],"objectID":"87ec6f01-3c64-4e7a-afbd-0e46592c027d","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/blog/<br>free</br>-debt-<br>advice</br>-can-help-ease-money-worries","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"title":{"value":"<br>Free</br>
+        debt <br>advice</br> can help ease money worries","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"keywords":{"value":"debt","matchLevel":"none","matchedWords":[]},"description":{"value":"Close
+        to two thirds of people who received regulated debt <br>advice</br> were repaying
+        the money they owed or had repaid in full within three to six months.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"headers":[{"value":"<br>Free</br>
+        debt <br>advice</br> can help ease money worries","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},{"value":"Relieving
+        the burden","matchLevel":"none","matchedWords":[]},{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"Avoid
+        fee charging debt management firms","matchLevel":"none","matchedWords":[]},{"value":"Options
+        for clearing debts","matchLevel":"none","matchedWords":[]},{"value":"What
+        do you think?","matchLevel":"none","matchedWords":[]},{"value":"Footer links","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/articles/help-if-youre-struggling-with-debt","hostname":"www.moneyadviceservice.org.uk","path":"/en/articles/help-if-youre-struggling-with-debt","depth":3,"contentLength":221345,"fileType":"html","title":"Help
+        if you’re struggling with debt - Money Advice Service","description":"Find
+        out everything you need to know on how to get help if you are struggling with
+        debt or considering taking on more.","type":"article","image":"https://mascdn.azureedge.net/frontend/a/MAS-logo_social-sharing-ae38c6a25f85e14384af1ddf22614816.png","headers":["Help
+        if you’re struggling with debt","Where to find free, confidential advice","Did
+        you find this guide helpful?","Care to share?","Thank you for your feedback","Share
+        this article","Related guides","Most read","From our blog","More in ''Taking
+        control of debt''","Related guides","Most read","From our blog","Debt and
+        borrowing","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"f7a628af-6356-414d-a185-23e6b1d312dc","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/articles/help-if-youre-struggling-with-debt","matchLevel":"none","matchedWords":[]},"title":{"value":"Help
+        if you’re struggling with debt - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"description":{"value":"Find
+        out everything you need to know on how to get help if you are struggling with
+        debt or considering taking on more.","matchLevel":"none","matchedWords":[]},"headers":[{"value":"Help
+        if you’re struggling with debt","matchLevel":"none","matchedWords":[]},{"value":"<br>Where</br>
+        to find <br>free</br>, confidential <br>advice</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"Did
+        you find this guide helpful?","matchLevel":"none","matchedWords":[]},{"value":"Care
+        to share?","matchLevel":"none","matchedWords":[]},{"value":"Thank you for
+        your feedback","matchLevel":"none","matchedWords":[]},{"value":"Share this
+        article","matchLevel":"none","matchedWords":[]},{"value":"Related guides","matchLevel":"none","matchedWords":[]},{"value":"Most
+        read","matchLevel":"none","matchedWords":[]},{"value":"From our blog","matchLevel":"none","matchedWords":[]},{"value":"More
+        in ''Taking control of debt''","matchLevel":"none","matchedWords":[]},{"value":"Related
+        guides","matchLevel":"none","matchedWords":[]},{"value":"Most read","matchLevel":"none","matchedWords":[]},{"value":"From
+        our blog","matchLevel":"none","matchedWords":[]},{"value":"Debt and borrowing","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/tools/debt-advice-locator","hostname":"www.moneyadviceservice.org.uk","path":"/en/tools/debt-advice-locator","depth":3,"contentLength":193279,"fileType":"html","title":"Debt
+        Advice Locator - Free debt advice service and help locator tool - Money Advice
+        Service","description":"Free debt advice and help locator tool. Use our tool
+        to find a debt advice service near you that''s accredited by the Money Advice
+        Service.","headers":["Where to get free debt advice","Online debt advice services","Telephone
+        debt advice services","\n      Face-to-face and local services\n  ","\n    Debt
+        help in your area:\n  ","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"6ee90354-8e9a-4765-a18c-3ff0b0458df2","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/tools/debt-<br>advice</br>-locator","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"title":{"value":"Debt
+        <br>Advice</br> Locator - <br>Free</br> debt <br>advice</br> service and help
+        locator tool - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"description":{"value":"<br>Free</br>
+        debt <br>advice</br> and help locator tool. Use our tool to find a debt <br>advice</br>
+        service near you that''s accredited by the Money <br>Advice</br> Service.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"headers":[{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br>","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"Online
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"Telephone
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"\n      Face-to-face
+        and local services\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Debt
+        help in your area:\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/tools/debt-advice-locator/bristol","hostname":"www.moneyadviceservice.org.uk","path":"/en/tools/debt-advice-locator/bristol","depth":4,"contentLength":290520,"fileType":"html","title":"Debt
+        advice in Bristol - free debt help in Bristol | Money Advice Service - Money
+        Advice Service","description":"Free debt advice and debt help locator tool.
+        Use our tool to find a debt advice service in Bristol that holds a standard
+        accredited by the Money Advice Service.","headers":["Where to get free debt
+        advice in Bristol","\n      Face-to-face and local services\n  ","Online debt
+        advice services","Telephone debt advice services","\n    Debt help in your
+        area:\n  ","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"f3f27c7b-54f6-4b3e-8b29-ad93d1937137","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/tools/debt-<br>advice</br>-locator/bristol","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"title":{"value":"Debt
+        <br>advice</br> in Bristol - <br>free</br> debt help in Bristol | Money <br>Advice</br>
+        Service - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"description":{"value":"<br>Free</br>
+        debt <br>advice</br> and debt help locator tool. Use our tool to find a debt
+        <br>advice</br> service in Bristol that holds a standard accredited by the
+        Money <br>Advice</br> Service.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"headers":[{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br> in Bristol","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"\n      Face-to-face
+        and local services\n  ","matchLevel":"none","matchedWords":[]},{"value":"Online
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"Telephone
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"\n    Debt
+        help in your area:\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/tools/debt-advice-locator/coventry","hostname":"www.moneyadviceservice.org.uk","path":"/en/tools/debt-advice-locator/coventry","depth":4,"contentLength":347629,"fileType":"html","title":"Debt
+        advice in Coventry - free debt help in Coventry | Money Advice Service - Money
+        Advice Service","description":"Free debt advice and debt help locator tool.
+        Use our tool to find a debt advice service in Coventry that holds a standard
+        accredited by the Money Advice Service.","headers":["Where to get free debt
+        advice in Coventry","\n      Face-to-face and local services\n  ","Online
+        debt advice services","Telephone debt advice services","\n    Debt help in
+        your area:\n  ","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"ede56705-bef2-4a1e-8471-87ed459ab4bd","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/tools/debt-<br>advice</br>-locator/coventry","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"title":{"value":"Debt
+        <br>advice</br> in Coventry - <br>free</br> debt help in Coventry | Money
+        <br>Advice</br> Service - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"description":{"value":"<br>Free</br>
+        debt <br>advice</br> and debt help locator tool. Use our tool to find a debt
+        <br>advice</br> service in Coventry that holds a standard accredited by the
+        Money <br>Advice</br> Service.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"headers":[{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br> in Coventry","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"\n      Face-to-face
+        and local services\n  ","matchLevel":"none","matchedWords":[]},{"value":"Online
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"Telephone
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"\n    Debt
+        help in your area:\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/tools/debt-advice-locator/glasgow","hostname":"www.moneyadviceservice.org.uk","path":"/en/tools/debt-advice-locator/glasgow","depth":4,"contentLength":550216,"fileType":"html","title":"Debt
+        advice in Glasgow - free debt help in Glasgow | Money Advice Service - Money
+        Advice Service","description":"Free debt advice and debt help locator tool.
+        Use our tool to find a debt advice service in Glasgow that holds a standard
+        accredited by the Money Advice Service.","headers":["Where to get free debt
+        advice in Glasgow","\n      Face-to-face and local services\n  ","Online debt
+        advice services","Telephone debt advice services","\n    Debt help in your
+        area:\n  ","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"de3c1258-f105-4c34-a4cc-af539d21ba4a","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/tools/debt-<br>advice</br>-locator/glasgow","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"title":{"value":"Debt
+        <br>advice</br> in Glasgow - <br>free</br> debt help in Glasgow | Money <br>Advice</br>
+        Service - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"description":{"value":"<br>Free</br>
+        debt <br>advice</br> and debt help locator tool. Use our tool to find a debt
+        <br>advice</br> service in Glasgow that holds a standard accredited by the
+        Money <br>Advice</br> Service.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"headers":[{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br> in Glasgow","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"\n      Face-to-face
+        and local services\n  ","matchLevel":"none","matchedWords":[]},{"value":"Online
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"Telephone
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"\n    Debt
+        help in your area:\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/tools/debt-advice-locator/nottingham","hostname":"www.moneyadviceservice.org.uk","path":"/en/tools/debt-advice-locator/nottingham","depth":4,"contentLength":307007,"fileType":"html","title":"Debt
+        advice in Nottingham - free debt help in Nottingham | Money Advice Service
+        - Money Advice Service","description":"Free debt advice and debt help locator
+        tool. Use our tool to find a debt advice service in Nottingham that holds
+        a standard accredited by the Money Advice Service.","headers":["Where to get
+        free debt advice in Nottingham","\n      Face-to-face and local services\n  ","Online
+        debt advice services","Telephone debt advice services","\n    Debt help in
+        your area:\n  ","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"d37655af-16c1-4868-b883-779555b8d752","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/tools/debt-<br>advice</br>-locator/nottingham","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"title":{"value":"Debt
+        <br>advice</br> in Nottingham - <br>free</br> debt help in Nottingham | Money
+        <br>Advice</br> Service - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"description":{"value":"<br>Free</br>
+        debt <br>advice</br> and debt help locator tool. Use our tool to find a debt
+        <br>advice</br> service in Nottingham that holds a standard accredited by
+        the Money <br>Advice</br> Service.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"headers":[{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br> in Nottingham","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"\n      Face-to-face
+        and local services\n  ","matchLevel":"none","matchedWords":[]},{"value":"Online
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"Telephone
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"\n    Debt
+        help in your area:\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/tools/debt-advice-locator/cardiff","hostname":"www.moneyadviceservice.org.uk","path":"/en/tools/debt-advice-locator/cardiff","depth":4,"contentLength":279704,"fileType":"html","title":"Debt
+        advice in Cardiff - free debt help in Cardiff | Money Advice Service - Money
+        Advice Service","description":"Free debt advice and debt help locator tool.
+        Use our tool to find a debt advice service in Cardiff that holds a standard
+        accredited by the Money Advice Service.","headers":["Where to get free debt
+        advice in Cardiff","\n      Face-to-face and local services\n  ","Online debt
+        advice services","Telephone debt advice services","\n    Debt help in your
+        area:\n  ","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"ce774949-cabb-4865-b0c1-5dd69408cb2d","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/tools/debt-<br>advice</br>-locator/cardiff","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"title":{"value":"Debt
+        <br>advice</br> in Cardiff - <br>free</br> debt help in Cardiff | Money <br>Advice</br>
+        Service - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"description":{"value":"<br>Free</br>
+        debt <br>advice</br> and debt help locator tool. Use our tool to find a debt
+        <br>advice</br> service in Cardiff that holds a standard accredited by the
+        Money <br>Advice</br> Service.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"headers":[{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br> in Cardiff","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"\n      Face-to-face
+        and local services\n  ","matchLevel":"none","matchedWords":[]},{"value":"Online
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"Telephone
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"\n    Debt
+        help in your area:\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/tools/debt-advice-locator/sheffield","hostname":"www.moneyadviceservice.org.uk","path":"/en/tools/debt-advice-locator/sheffield","depth":4,"contentLength":316119,"fileType":"html","title":"Debt
+        advice in Sheffield - free debt help in Sheffield | Money Advice Service -
+        Money Advice Service","description":"Free debt advice and debt help locator
+        tool. Use our tool to find a debt advice service in Sheffield that holds a
+        standard accredited by the Money Advice Service.","headers":["Where to get
+        free debt advice in Sheffield","\n      Face-to-face and local services\n  ","Online
+        debt advice services","Telephone debt advice services","\n    Debt help in
+        your area:\n  ","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"ba829045-d46d-414e-b576-31def2330ac6","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/tools/debt-<br>advice</br>-locator/sheffield","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"title":{"value":"Debt
+        <br>advice</br> in Sheffield - <br>free</br> debt help in Sheffield | Money
+        <br>Advice</br> Service - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"description":{"value":"<br>Free</br>
+        debt <br>advice</br> and debt help locator tool. Use our tool to find a debt
+        <br>advice</br> service in Sheffield that holds a standard accredited by the
+        Money <br>Advice</br> Service.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"headers":[{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br> in Sheffield","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"\n      Face-to-face
+        and local services\n  ","matchLevel":"none","matchedWords":[]},{"value":"Online
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"Telephone
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"\n    Debt
+        help in your area:\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}},{"url":"https://www.moneyadviceservice.org.uk/en/tools/debt-advice-locator/manchester","hostname":"www.moneyadviceservice.org.uk","path":"/en/tools/debt-advice-locator/manchester","depth":4,"contentLength":392801,"fileType":"html","title":"Debt
+        advice in Manchester - free debt help in Manchester | Money Advice Service
+        - Money Advice Service","description":"Free debt advice and debt help locator
+        tool. Use our tool to find a debt advice service in Manchester that holds
+        a standard accredited by the Money Advice Service.","headers":["Where to get
+        free debt advice in Manchester","\n      Face-to-face and local services\n  ","Online
+        debt advice services","Telephone debt advice services","\n    Debt help in
+        your area:\n  ","\n    Web chat","WhatsApp Logo\n\n    WhatsApp","\n    Contact
+        Us"],"objectID":"b37e8c18-a0bc-46ab-8037-846bb2198c9f","_highlightResult":{"url":{"value":"https://www.moneyadviceservice.org.uk/en/tools/debt-<br>advice</br>-locator/manchester","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},"title":{"value":"Debt
+        <br>advice</br> in Manchester - <br>free</br> debt help in Manchester | Money
+        <br>Advice</br> Service - Money <br>Advice</br> Service","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"description":{"value":"<br>Free</br>
+        debt <br>advice</br> and debt help locator tool. Use our tool to find a debt
+        <br>advice</br> service in Manchester that holds a standard accredited by
+        the Money <br>Advice</br> Service.","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["free","advice"]},"headers":[{"value":"<br>Where</br>
+        to get <br>free</br> debt <br>advice</br> in Manchester","matchLevel":"full","fullyHighlighted":false,"matchedWords":["where","free","advice"]},{"value":"\n      Face-to-face
+        and local services\n  ","matchLevel":"none","matchedWords":[]},{"value":"Online
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"Telephone
+        debt <br>advice</br> services","matchLevel":"partial","fullyHighlighted":false,"matchedWords":["advice"]},{"value":"\n    Debt
+        help in your area:\n  ","matchLevel":"none","matchedWords":[]},{"value":"\n    Web
+        chat","matchLevel":"none","matchedWords":[]},{"value":"WhatsApp Logo\n\n    WhatsApp","matchLevel":"none","matchedWords":[]},{"value":"\n    Contact
+        Us","matchLevel":"none","matchedWords":[]}]}}],"nbHits":66,"page":0,"nbPages":7,"hitsPerPage":10,"exhaustiveNbHits":true,"query":"where
+        free advice","queryAfterRemoval":"where free advice","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=where+free+advice","processingTimeMS":1}'
+  recorded_at: Wed, 09 Sep 2020 13:24:40 GMT
+recorded_with: VCR 6.0.0

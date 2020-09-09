@@ -2,19 +2,19 @@
 http_interactions:
 - request:
     method: post
-    uri: https://bhpslyij2l-dsn.algolia.net/1/indexes/pages/query
+    uri: https://p3o4x0ie7q-dsn.algolia.net/1/indexes/uat_money_advice_service/query
     body:
       encoding: UTF-8
       string: '{"params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=algoliaaaaaaaaaaaaaaaaaa"}'
     headers:
       User-Agent:
-      - Algolia for Ruby 1.19.1
+      - Algolia for Ruby (1.27.3); Ruby (2.5.3)
       Accept:
       - "*/*"
       Accept-Encoding:
       - gzip,deflate
       Date:
-      - Tue, 27 Mar 2018 11:13:07 GMT
+      - Wed, 09 Sep 2020 13:24:40 GMT
       X-Algolia-Api-Key:
       - "<API_KEY>"
       X-Algolia-Application-Id:
@@ -29,25 +29,31 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 27 Mar 2018 11:13:07 GMT
+      - Wed, 09 Sep 2020 13:24:40 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Content-Length:
-      - '259'
+      - '305'
       Connection:
       - keep-alive
+      X-Alg-Pt:
+      - '1'
+      Accept-Encoding:
+      - deflate, gzip
+      Cache-Control:
+      - no-store
       Access-Control-Allow-Origin:
       - "*"
-      Cache-Control:
-      - no-cache
+      Timing-Allow-Origin:
+      - "*"
       X-Content-Type-Options:
       - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
       Content-Disposition:
       - inline; filename=a.txt
     body:
       encoding: UTF-8
-      string: |
-        {"hits":[],"nbHits":0,"page":0,"nbPages":0,"hitsPerPage":10,"processingTimeMS":1,"exhaustiveNbHits":true,"query":"algoliaaaaaaaaaaaaaaaaaa","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=algoliaaaaaaaaaaaaaaaaaa"}
-    http_version: 
-  recorded_at: Tue, 27 Mar 2018 11:13:07 GMT
-recorded_with: VCR 4.0.0
+      string: '{"hits":[],"nbHits":0,"page":0,"nbPages":0,"hitsPerPage":10,"exhaustiveNbHits":true,"query":"algoliaaaaaaaaaaaaaaaaaa","queryAfterRemoval":"algoliaaaaaaaaaaaaaaaaaa","params":"highlightPreTag=%3Cbr%3E&highlightPostTag=%3C%2Fbr%3E&page=0&hitsPerPage=10&query=algoliaaaaaaaaaaaaaaaaaa","processingTimeMS":1}'
+  recorded_at: Wed, 09 Sep 2020 13:24:40 GMT
+recorded_with: VCR 6.0.0
